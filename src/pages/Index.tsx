@@ -78,7 +78,7 @@ const Index = () => {
                 Memecoin powered by BNB Chain
               </Badge>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] text-balance">
-                Stake your <span className="text-primary">$BNB</span>,
+                Stake your <span className="text-primary">$ROCKET</span>,
                 earn rewards, & ride the rocket
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl text-balance">
@@ -254,7 +254,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
             {[
               { label: "Total supply", value: "1,000,000,000", sub: "$ROCKET" },
-              { label: "Trade tax", value: "5%", sub: "Buy & sell" },
+              { label: "Trade tax", value: "3%", sub: "Buy & sell" },
               { label: "→ slisBNB rewards", value: "80%", sub: "Of all tax" },
               { label: "→ Liquidity & burn", value: "20%", sub: "Forever" },
             ].map((t, i) => (
@@ -310,7 +310,7 @@ const Index = () => {
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="rounded-full font-bold h-14 px-8 text-base bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://x.com/0xRocketDAO" target="_blank" rel="noopener noreferrer">
                     <Twitter className="mr-2 h-5 w-5" />
                     Follow on X
                   </a>
@@ -375,10 +375,10 @@ const Index = () => {
               <span>RocketDAO</span>
             </div>
             <div className="flex items-center gap-4">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
+              <a href="https://x.com/0xRocketDAO" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
                 <Twitter className="h-4 w-4" />
               </a>
-              <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
+              <a href="https://t.me/tRocketDAO" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
                 <Send className="h-4 w-4" />
               </a>
               <a href="https://flap.sh" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
