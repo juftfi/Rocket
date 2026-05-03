@@ -26,7 +26,7 @@ import heroRocket from "@/assets/hero-rocket.png";
 import vaultBnb from "@/assets/vault-bnb.png";
 import logoRocket from "@/assets/logo-rocket.png";
 
-const CONTRACT = "0xR0CKETDA0...flap.sh";
+const CONTRACT = "0xc529d38a1cd023e028c7fb1018601a33d49d7777";
 
 const Index = () => {
   const [copied, setCopied] = useState(false);
