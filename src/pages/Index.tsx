@@ -26,7 +26,7 @@ import heroRocket from "@/assets/hero-rocket.png";
 import vaultBnb from "@/assets/vault-bnb.png";
 import logoRocket from "@/assets/logo-rocket.png";
 
-const CONTRACT = "7777";
+const CONTRACT = "0x6d34978b8757be4a776357cb6163ba5c80077777";
 
 const Index = () => {
   const [copied, setCopied] = useState(false);
@@ -63,7 +63,7 @@ const Index = () => {
             <a href="#faq" className="hover:text-foreground transition-smooth">FAQ</a>
           </div>
           <Button asChild size="lg" className="bg-gradient-primary hover:opacity-90 shadow-elegant rounded-full font-bold">
-            <a href="https://flap.sh/bnb/7777" target="_blank" rel="noopener noreferrer">Launch on flap.sh</a>
+            <a href="https://flap.sh/bnb/0x6d34978b8757be4a776357cb6163ba5c80077777" target="_blank" rel="noopener noreferrer">Launch on flap.sh</a>
           </Button>
         </nav>
       </header>
@@ -87,7 +87,7 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button asChild size="lg" className="bg-gradient-primary hover:opacity-90 shadow-elegant rounded-full font-bold h-14 px-8 text-base">
-                  <a href="https://flap.sh/bnb/7777" target="_blank" rel="noopener noreferrer">
+                  <a href="https://flap.sh/bnb/0x6d34978b8757be4a776357cb6163ba5c80077777" target="_blank" rel="noopener noreferrer">
                     <Rocket className="mr-2 h-5 w-5" />
                     Buy on flap.sh
                   </a>
@@ -304,7 +304,7 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-3 justify-center pt-2">
                 <Button asChild size="lg" className="bg-ink hover:bg-ink/90 text-background rounded-full font-bold h-14 px-8 text-base">
-                  <a href="https://flap.sh/bnb/7777" target="_blank" rel="noopener noreferrer">
+                  <a href="https://flap.sh/bnb/0x6d34978b8757be4a776357cb6163ba5c80077777" target="_blank" rel="noopener noreferrer">
                     <Rocket className="mr-2 h-5 w-5" />
                     Launch on flap.sh
                   </a>
@@ -381,7 +381,7 @@ const Index = () => {
               <a href="https://t.me/tRocketDAO" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
                 <Send className="h-4 w-4" />
               </a>
-              <a href="https://flap.sh/bnb/7777" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
+              <a href="https://flap.sh/bnb/0x6d34978b8757be4a776357cb6163ba5c80077777" target="_blank" rel="noopener noreferrer" className="h-10 w-10 rounded-full bg-background/10 hover:bg-primary transition-smooth flex items-center justify-center">
                 <Rocket className="h-4 w-4" />
               </a>
             </div>
